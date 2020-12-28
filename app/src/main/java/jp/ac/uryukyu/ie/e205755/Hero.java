@@ -27,6 +27,19 @@ public class Hero {
         return this.dead;
     }
 
+    public void setName(String name){
+        this.name = name;
+    }
+    public void setHitPoint(int hitPoint){
+        this.hitPoint = hitPoint;
+    }
+    public void setAttack(int attack){
+        this.attack = attack;
+    }
+    public void setDead(boolean dead){
+        this.dead = dead;
+    }
+
     /**
      * コンストラクタ。名前、最大HP、攻撃力を指定する。
      * @param name ヒーロー名

@@ -23,8 +23,21 @@ public class Enemy {
     public int getAttack(){
         return this.attack;
     }
-    public boolean getDead(){
+    public boolean isDead(){
         return this.dead;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+    public void setHitPoint(int hitPoint){
+        this.hitPoint = hitPoint;
+    }
+    public void setAttack(int attack){
+        this.attack = attack;
+    }
+    public void setDead(boolean dead){
+        this.dead = dead;
     }
 
     /**
